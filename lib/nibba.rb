@@ -1,6 +1,6 @@
 class Object
   def method_missing m, *args, &block
-    b = ?\u{1F171}
+    b = "🅱️"
 
     return super unless m.to_s.include? b
 
